@@ -69,8 +69,8 @@ public class readingPrefab : MonoBehaviour {
             //Set Panel Text
             locationText.GetComponent<Text>().text = "Location: " + reading.Location;
             dateText.GetComponent<Text>().text = "Date of Reading: " + reading.WhenReadingRecorded;
-            ecologicalValueText.GetComponent<Text>().text = "Safety Category: " +reading.EcologicalValue;
-            historicalSignificanceText.GetComponent<Text>().text = "Safety Measure: " + reading.HistoricalSignificance.ToString();
+            ecologicalValueText.GetComponent<Text>().text = "Ecological Value: " + reading.EcologicalValue;
+            historicalSignificanceText.GetComponent<Text>().text = "Historical Significance: " + reading.HistoricalSignificance.ToString();
 
             this.selected = true;
         }
